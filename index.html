@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>amazone</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="3.css">
+  <link rel="stylesheet" href="responsiv.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+</head>
+
+<body>
+  <script>
+    AOS.init();
+  </script>
+
+
+  <div class="header" id="header">
+    <img class="logo" src="Amazon-Logo-PNG35.png" alt="" width="200px" height="70px">
+    <div class="DI">deliver to india <br>
+      <i class="fa fa-map-marker fa-1x"></i>
+
+    </div>
+    <div class="nav-search">
+      <select>
+        <option>All</option>
+
+      </select>
+      <input placeholder="search amazone">
+      <i class=" fa fa-search fa-x"></i>
+
+    </div>
+    <div class="india">
+      <p>eng</p>
+      <img class="indflag" src="india.jpg" width="100%" height="70px">
+    </div>
+
+
+    <div class="nav-signin">
+      <a href="https://www.flipkart.com/">
+
+        <p style="color:white;">hello signin <br>
+          <span class="accounts">accounts and lists</span>
+        </p>
+        <!-- <p><span>hello, sign in </span></p>
+
+
+            </a>
+            
+            <p class="nav-second"> account & lists</p> -->
+    </div>
+
+
+    <div class="nav-return">
+      <a
+        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj7kcLP5-uEAxV1qGYCHRVvA_oYABAAGgJzbQ&ase=2&gclid=CjwKCAjw17qvBhBrEiwA1rU9w8e6IqJ8cPaXINey6w1qXXgts911Ez933vX95qvArqoG-9gbyOt0dhoCqP8QAvD_BwE&ohost=www.google.com&cid=CAESV-D2nWksBbCqHeH0tiQ-ICcS_QiREfeuvScRt1eJvE567KOfv4MwFoKPRQG7_7jlEj0rWP_BgYOy3IvJB5SDHHOSQscJD7AwpmKiTYb9MHl-BHG563-X4Q&sig=AOD64_1ui1sPHCBQWzuChgljqGIDsMy-cw&q&nis=4&adurl&ved=2ahUKEwi7lL3P5-uEAxUKd2wGHVgoBD4Q0Qx6BAgGEAE">
+
+        <p style="color:white;">hello signin <br>
+          <span class="accounts">accounts and orders</span>
+        </p>
+
+
+      </a>
+
+    </div>
+    <div class="nav-cart">
+      <i class="fa fa-shopping-cart fa-3x"></i>
+      <!-- <i class=" fa fa-shopping-cart fa-x"></i> -->
+
+
+      <span class="cart">cart</span>
+    </div>
+
+  </div>
+
+  <div class="navbar">
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#about">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">amazon prime video</a>
+      <a href="#">amazon prime music</a>
+      <a href="#">fire tv </a>
+      <a href="#">amazon audible audio</a>
+      <a href="#">Contact</a>
+      <a href="#">Contact</a>
+      <a href="#">Contact</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <ul class="nav-list">
+      <li><a href="">fresh</a></li>
+      <li><a href="">amazone tv</a></li>
+      <li><a href="">sell</a></li>
+      <li><a href="">best seller</a></li>
+      <li><a href="">mobile</a></li>
+      <li><a href="">today deal's</a></li>
+      <li><a href="#electronics">electronics</a></li>
+      <li><a href="">prime</a></li>
+      <li><a href="">customer service </a></li>
+      <li><a href="">new release</a></li>
+      <li><a href="">home & kitchen</a></li>
+      <li><a href="">gifts</a></li>
+      <li><a href="">
+          New Launches from Mobile, Electronics & more</a></li>
+    </ul>
+
+  </div>
+
+
+
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <!-- <img src="croual1.png" class="d-block w-100 caroheight" alt="..."> -->
+        <div class="d-block w-100 caroheight ">
+          <img src="crouser4.jpg" alt="" class=" ms-3" width="380px" height="550px">
+          <img src="crouser5.jpg" alt="" class=" me-2" width="380px" height="550px">
+          <img src="croual1.png" alt="" class=" me-2" width="380px" height="550px">
+          <img src="cruser2.jpg" alt="" class=" me-2" width="380px" height="550px">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="cruser2.jpg" class="d-block w-100 caroheight" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="cruoser3.jpg" class="d-block w-100 caroheight" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="crouser4.jpg" class="d-block w-100 caroheight" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="crouser5.jpg" class="d-block w-100 caroheight" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="crouser6.jpg" class="d-block w-100 caroheight" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="crouser7.jpg" class="d-block w-100 caroheight" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="crouser8.png" class="d-block w-100 caroheight" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- create a top sller brand -->
+  <div class="container-fluid px-5 position-absolute topseller " style="top: 400px; ">
+    <h1 class="bg-danger text-capitalize text-center text-light  " data-aos="flip-right">best selling product</h1>
+    <div class="card-group position-relative text-uppercase gap-3">
+      <div class="card">
+        <img src="8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">kids-cloths</h5>
+          <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ladies dresses</h5>
+          <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card ">
+        <img src="2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">shocks</h5>
+          <!-- <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">gents informal dress</h5>
+          <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="4.jpg" class="card-img-top" alt="...">
+        <div class="card-body ">
+          <h5 class="card-title">formal dress</h5>
+          <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-dark" style="margin-top: 200px;">
+    <div class="container">
+
+
+
+
+      <h1 class="bg-danger text-capitalize text-center text-light" data-aos="flip-right">under <i
+          class="fa fa-inr">499|</i> pocket friendly fashion </h1>
+      <div class="2card-group position-relative text-uppercase d-flex mx-5 gap-5 text-light text-center">
+        <div class="2card ">
+          <a href="">
+            <img src="watch2.jpg" class="" alt="..." height="300px" width="200px">
+
+            <div class="2card-body">
+              <button class="2card-title border mt-4  rounded-circle w-75 ">watchs</button>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              <!-- <p class="2card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+
+          </a>
+
+        </div>
+        <div class="2card">
+          <a href="">
+            <img src="bags2.jpg" class="" alt="..." height="300px" width="200px">
+            <div class="2card-body">
+              <button class="2card-title border mt-4  rounded-circle w-75 ">bags</button>
+              <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+              <!-- <p class="2card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+
+          </a>
+
+        </div>
+        <div class="2card ">
+          <img src="shoes.jpg" class="" alt="..." height="300px" width="200px">
+          <div class="2card-body">
+            <button class="2card-title border mt-4  rounded-circle w-75 ">shoes</button>
+            <!-- <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+            <!-- <p class="2card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+        <div class="2card">
+          <img src="tshirt.jpg" class="" alt="..." height="300px" width="200px">
+          <div class="2card-body">
+            <button class="2card-title border mt-4 rounded-circle w-75  ">t-shirt</button>
+
+
+            <!-- <p class="2card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+        <div class="2card">
+          <img src="airbud.webp" class="" alt="..." height="300px" width="200px">
+          <div class="2card-body ">
+            <button class="2card-title border mt-4 rounded-circle w-75  ">airbud</button>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+            <!-- <p class="2card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-light text-light text-capitalize d-flex px-3 py-5" id="electronics">
+
+    <div class="maintopitem bg-secondary">
+      <h3 class="w-100 text-center ">up to 45% off </h3>
+      <div class="topitem">
+        <img src="gym wear.jpg" alt="" class=" "><br>
+        <span>gym wear </span>
+      </div>
+      <div class="topitem">
+        <img src="footwear.jpg" alt="" class=" ">
+        <span>footwear handbags</span>
+      </div>
+      <div class="topitem">
+        <img src="watch.png" alt="" class=" ">
+        <span>watchs</span>
+      </div>
+      <div class="topitem">
+        <img src="jewellery.jpg" alt="" class=" ">
+        <span>fashion jewellery</span>
+      </div>
+      </img>
+
+
+
+    </div>
+    <div class="maintopitem bg-secondary">
+      <h3 class="w-100 text-center">up to 55% off</h3>
+      <div class="topitem">
+        <img src="ac.webp" alt="" class=" "><br>
+        <span>Airconditioner</span>
+      </div>
+      <div class="topitem">
+        <img src="refrigerator.jpg" alt="" class=" ">
+        <span>refrigerator</span>
+      </div>
+      <div class="topitem">
+        <a
+          href="https://www.amazon.in/iBELL-EO19LG-19-Litre-Toaster-1500Watt/dp/B085B1RFL9/ref=sr_1_18?crid=KZYVPXSHW9M&dib=eyJ2IjoiMSJ9.tAfHFIDpu6Hxv_z1igHvVAIcDTLb1c74Ly0nrK7s5_NnmmaptDblY66xJGsb0iAcCR6QRbzs8NsR9rwuEkwTzzl4-LKg13PKSv1UYt0jAJXkYMG0nKunQIN4NFHxAIuJ_i-JNmEFtzJ8oOccFsd7jtmoITlAFwiHsh01Hah5hlSGXM4ZR9VbXcay8QhyrwruflcchXgwuWYvV4wqv-f74wpXNQxTZl0K4r7UrLKLNco.uDa7wzNd5PlAu1ORxaiCwTcg2_CXx1hPIVKFvc5OLYw&dib_tag=se&keywords=microwave&qid=1711952237&sprefix=micro%2Caps%2C232&sr=8-18">
+          <img src="micro.jpg" alt="" class=" ">
+          <span>micro-wave</span></a>
+      </div>
+      <div class="topitem">
+        <a
+          href="https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozMDk0MTQzMTU0NTMxMDkxOjE3MTE5NTIxOTE6c3BfYXRmOjIwMTI2ODQ1MTE1ODk4OjowOjo&url=%2FLG-Inverter-Fully-Automatic-Washing-FHM1207SDM%2Fdp%2FB0BMGD9Y2X%2Fref%3Dsr_1_1_sspa%3Fcrid%3D3TDITUAG9RDPP%26dib%3DeyJ2IjoiMSJ9.8wfIBNY3T88h-xUAOTlyhql-bYhgHNGYP5_LBlWMspEcXYlegWaIJrLGNStaVThCINs_r44apgez9E_-1QpNFQJdnjMqXMNProFCTpPoZC8WygD7ft7Djr7w_HEq_6LjMkpGvzn_w8W-esSkqz_ja1Dbu3t0WQ26eTIIZ3I2lYlu_GaMc1CRxiYsGgqFNGwjnqwx-PSt6Nj-SbAc3dM6IQHyXfEo3Mb4kmk1W6zOok4.6gmb5wPilAN7bhzjWDV4hVb-SApgr9APgD0DGFXawLI%26dib_tag%3Dse%26keywords%3Dwashing%2Bmachine%26qid%3D1711952191%26sprefix%3Dwas%252Caps%252C228%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1">
+
+          <img src="washing machine.jpg" alt="" class=" ">
+          <span>washing machine</span></a>
+      </div>
+      </img>
+
+
+
+    </div>
+    <div class="maintopitem bg-secondary">
+      <h3 class="w-100 text-center">starting <i class="fa fa-inr"> 99</i></h3>
+      <div class="topitem">
+        <a
+          href="https://www.amazon.in/Stainless-Multipurpose-Organizer-Toothbrush-Accessories/dp/B0922WNDHX/ref=sr_1_46?crid=H0RVQNZBHVWA&dib=eyJ2IjoiMSJ9.zM0zPXgCjwX9GAKbktBXzxiJTtLP5JqRn0BhEiM1WJ48hQYtMVVcAhQHok71Hgdatgq1KkR4ICeoGNLQOmsYt9WNpUR3pjhL5955C4pGK-Cx4SPQwuPlhut9qV6tc0uLGA7-gZrKmB_31Ysd7aCjrf9hF_Sbko2PCcjFmBKoABsBPLePEfxZIz7XrjQrk6r9v7vO1cbvGStsAyRHMTz2YQo0sszJdotgU7q6P6HqmlOJDpe0vqs5TCdmvIMn8RMvG2_8_LcjnGGyjwFcRG6nzJ5b2pwtBNFezA7MUml9l7M.a9SBxNRxayjMTknITMUd-TlK7rh6NPy51pLnkVE1G9g&dib_tag=se&keywords=bathroom+hardware+and+accessories&qid=1711951319&sprefix=bathroom+hard%2Caps%2C233&sr=8-46">
+
+          <img src="bathroom hardware.jpg" alt="" class=" "><br>
+          <span>bathroom hardware</span></a>
+      </div>
+      <div class="topitem">
+        <a
+          href="https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNjkyNjIyNjAwMTA3MDkxOjE3MTE5NTE0NTQ6c3BfYXRmOjMwMDE0ODgzNjQ1MTQzMjo6MDo6&url=%2FEMBOX-Extension-Universal-Charging-Indicator%2Fdp%2FB096Y48N1P%2Fref%3Dsr_1_1_sspa%3Fcrid%3DQKPE04B3G26%26dib%3DeyJ2IjoiMSJ9.j8rVLgrNJIzJOIeFSrdUg4RiusYtK6DbGKg29eXyth2J0Uu4nInKZlXJ3kbV9aV1x2vJdwSYCwXPFsX0u0-PJTnjpBls1zFzjWvAYrsNBfpU08tO4BgIQoKmsrt4Q4CWllkaLt26lXNMyoHBr5AofWQnvQA1eLb84ByrilbtR7lA-oPBljvsK3d3_I_7o4lLCI8cmE3jEKc0LHX2zxElUAfeTPkleN2-xiF2PYcE_O4.9-U0afM20rKCFXLOSJouTGCty57IZQAGviDDd0MDZKI%26dib_tag%3Dse%26keywords%3Dextension%2Bboard%26qid%3D1711951454%26sprefix%3Dext%252Caps%252C224%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1">
+
+          <img src="extension switch board.jpg" alt="" class=" ">
+          <span>extension switch board</span></a>
+      </div>
+      <div class="topitem">
+        <a
+          href="https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MDc5ODczMzMyMTk0MDkxOjE3MTE5NTEyNDE6c3BfYXRmOjMwMDEyNTA5Njc4NDMzMjo6MDo6&url=%2FAmazon-Basics-Hammer-Fiberglass-Cross-Pein%2Fdp%2FB0CCS3XRDT%2Fref%3Dsr_1_1_sspa%3Fcrid%3D1PYX65F4HB3U7%26dib%3DeyJ2IjoiMSJ9.-oT1Mg-dseaKIW2wVCvReS5lW-Q1sFDyqgnN3kLDJWI7ajGx2HizQbFXkfFOL8fMaxHLNZknPNXeZdyUapTA75S_innQF4QXZccdZTiYSV7xZC0GMKc1pq4kOFRQjdcFXtR4xRQbiSowgdJ31ZvPWIJpDBvltY670Z9LGiWVQk_OKEq-uIHVpZUutc4PPM3tghqlpFxwmi26cXcy-Iquvkwg0rDeyZhahPG5Oc0HumMnNf9g1SymagDTo8U7C2cgbO1zOEhsT_INR3Lr85vXIu2lx_Lpbv05Rns9gIWYYJc.mjqUg6xN2ldUuDiIwpswI4Nc62bnmpURbgRNvkE3deY%26dib_tag%3Dse%26keywords%3Dhamers%26qid%3D1711951241%26sprefix%3Dhamer%252Caps%252C232%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1">
+
+          <img src="hamers and screwdrives.jpg" alt="" class=" ">
+          <span>hamers and scewdrives </span></a>
+      </div>
+      <div class="topitem">
+        <a
+          href="https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo0MjcxMjExOTU3MDgwMDkxOjE3MTE5NTExMDc6c3BfYXRmOjIwMDQ2NjUxNjQzOTk4OjowOjo&url=%2FScotch-Brite-Bucket-Spin-Green-Refills%2Fdp%2FB07LDKFM2Y%2Fref%3Dsr_1_2_sspa%3Fcrid%3D3G6QEQYWXR2PA%26dib%3DeyJ2IjoiMSJ9.Qget9O6v578lgtYx855JOP4SOGJlM_l9vIlDk5w8JPjRMhnmnUBv73na_VbWfPUo8GiV2qbC7B-3FCLKoMhYFf3-8RIidy9lXXD0kV931vY2Hu5rGETIyKaHDzgHInihbSkHxhakXXcwq1wiI7NFdhau8_uQZvTS8UGQwhgmLMNlzONPh_RMKlPNDMk536XNR-XaeQRI7pt_6OYoU_oAcJAP_ldy5AHE76axRcD2RDepbC1fHrnZbWRTsfbl17jFi4wwEvUZCO9vVIOGBbJthlrugg8rOGVBJ_ktSew8vnk.13x0wKEp7RxDyQ_0rK8PbQobSIKOEBh76Pfu_ll5Yu8%26dib_tag%3Dse%26keywords%3Dspin%2Bmop%26qid%3D1711951107%26sprefix%3Dspin%252Caps%252C293%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1">
+
+
+          <img src="spin mops.jpg" alt="" class=" ">
+          <span>spin mops</span></a>
+      </div>
+      </img>
+
+
+
+    </div>
+    <div class="maintopitem bg-secondary">
+
+      <h1 class="w-100 text-center">10% off | mobile fans & luxuries music system</h1>
+      <div class="topitem">
+        <a
+          href=" https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3Nzc1Nzc0NjM4ODU5MDc1OjE3MTA1Nzk0NzU6c3BfYXRmOjMwMDA1NDM0NTk1MjczMjo6MDo6&url=%2FApple-iPhone-Pro-Max-256%2Fdp%2FB0CHWV2WYK%2Fref%3Dsr_1_1_sspa%3Fcrid%3D10FNLXUR1BQKA%26dib%3DeyJ2IjoiMSJ9.HriFLm_DHEZzxI2LxlyjcPtNMy1jIPScjwddKfJI3k4wpGzgFu398LqILlvQiwE-jbybYRuj9vnLqboadk3IQ6k34KR69aAgp-FuEFzA7yrMSGoq66r6c_SX1g43wcbloADoEnBPiOfPqkmLJeghOf49foGRumPte9e712I7X8_rcOO3nzefKZkdc8LCDPt9WaPysWTGzf0a_CLmj_WsfdDf0nXg5dIRn8qDDzUqU_k.IQjIzH6_Uak_gjuen_IKbr9X-m1zfbE42kKjzy3AHSk%26dib_tag%3Dse%26keywords%3Diphone%2B15%2Bpro%2Bmax%26qid%3D1710579475%26sprefix%3Dip%252Caps%252C367%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1">
+          <img src="iphone.jpg" alt="" class=" "><br>
+          <span>iphone </span></a>
+      </div>
+      <div class="topitem">
+        <a
+          href="https://www.amazon.in/Marshall-Middleton-Portable-Bluetooth-Speaker/dp/B0BTHL673V?ref_=ast_sto_dp&th=1&psc=1">
+          <img src="music.jpg" alt="" class=" ">
+          <span>music system</span></a>
+      </div>
+      <div class="topitem">
+        <a
+          href="https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3OTc5OTQ0MTY0NzM4MDc1OjE3MTA1Nzk4MDQ6c3BfYXRmOjIwMDcxMjk1MTI3NTk4OjowOjo&url=%2FAtomberg-Renesa-Motor-Remote-Ceiling%2Fdp%2FB08Y5QJXSR%2Fref%3Dsr_1_1_sspa%3Fcrid%3D36O07LAQNUHAF%26dib%3DeyJ2IjoiMSJ9.i6TJT2XCeiA6YIwHQx1JB0tmIPIudjn43qFlZxGCG8_9A151MEpiTmfZLEEoOsxy1aC4pGQ7YCkuPo_1NDF1iEsbJvJQXAodzqDhHW5CN45bQsRBffy-gYUO65zV5vl8ESoCEcngtt62M9V66uawSx81uQBmxELCeqoKTIn_0t4MQeSRkXUe3W3fKvtaCYXW8OX3cczfFOmn3Ft8SECzdv7HxDJHfgOTzBBWGo-ypEo.Rp96eVUqPbIHN0JoLriMjPyEkrSr4HG0IVGrmg-5LjI%26dib_tag%3Dse%26keywords%3Dfans%2Bceiling%2Bfans%26qid%3D1710579804%26sprefix%3Dfan%252Caps%252C309%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1">
+          <img src="fan.jpg" alt="" class=" ">
+          <span> fashionable fan</span></a>
+      </div>
+      <div class="topitem">
+        <a
+          href=" https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNzk3ODc2MjU0OTkxMDc1OjE3MTA1Nzk4ODE6c3BfYXRmOjMwMDEyMjM3OTg1ODEzMjo6MDo6&url=%2FSamsung-Galaxy-Smartphone-Titanium-Storage%2Fdp%2FB0CQYGF1QY%2Fref%3Dsr_1_1_sspa%3Fcrid%3D1VI2OKS3QLS4H%26dib%3DeyJ2IjoiMSJ9.jMn3WviE2kR_fsDJ-_9zEefvp-GCdA8Vgcnk1w2BnP1QBiYZ9tlLQsLN_xdNtuo8U9n-nQLh2l_6eP9PidZd-GvGeAnE9usNhVk87h3IA5ryD2hY-l0Om3pNt04UTk1xHsLMxxykMiih62n1VXmRIOavPg3BDdQuJcKHDUvHplgEElSE70Q-SExSndiKIj1mSdphbqDRClTxeNyQf7KgOhiKZMQfUMGL8kdqFXoJdgU.KM5t2TAWVShwBguXpmnCJZnAX9qyCkCCpSOWBB0BEAM%26dib_tag%3Dse%26keywords%3Dsamsung%2Bs24%2Bultra%2B5g%26qid%3D1710579881%26sprefix%3D%252Caps%252C261%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1">
+          <img src="samsung.jpg" alt="" class=" ">
+          <span>samsung mobile </span></a>
+      </div>
+      </img>
+
+
+
+    </div>
+  </div>
+
+  <BUtton type="button" onclick="window.scrollBy(0,-2000)" class=" bg-dark w-100 text-light"> BACK TO TOP </BUtton>
+  <div class=" container-fluid text-capitalize bg-dark" id="about">
+    <div class="container d-flex bg-dark w-100">
+      <div class="w-25 bg-dark text-light ms-2 my-3 text-center">
+        <a href="" class="text-decoration-none text-light">get to know us</a><br>
+        <a href="" class="text-decoration-none text-light">about us</a><br>
+        <a href="" class="text-decoration-none text-light">careers</a><br>
+        <a href="" class="text-decoration-none text-light">press release</a><br>
+        <a href="" class="text-decoration-none text-light">amazon science</a><br>
+      </div>
+      <div class="w-25 bg-dark text-light ms-2 my-3 text-center text-capitalize">
+        <a href="" class="text-decoration-none text-light ">connect with us </a><br>
+        <a href="" class="text-decoration-none text-light">instagram</a><br>
+        <a href="" class="text-decoration-none text-light">facebook</a><br>
+        <a href="" class="text-decoration-none text-light">youtube</a><br>
+        <a href="" class="text-decoration-none text-light">twitter</a><br>
+      </div>
+      <div class="w-25 bg-dark text-light ms-2 my-3 text-center">
+        <a href="" class="text-decoration-none text-light">make money with us
+        </a><br>
+        <a href="" class="text-decoration-none text-light">sell on amazon</a><br>
+        <a href="" class="text-decoration-none text-light">sell under amazon accelator</a><br>
+        <a href="" class="text-decoration-none text-light">protect and build your brand</a><br>
+        <a href="" class="text-decoration-none text-light">Amazon Global Selling</a><br>
+        <a href="" class="text-decoration-none text-light">Become an Affiliate</a><br>
+        <a href="" class="text-decoration-none text-light">Fulfilment by Amazon</a><br>
+        <a href="" class="text-decoration-none text-light">Advertise Your Products</a><br>
+        <a href="" class="text-decoration-none text-light">Amazon Pay on Merchants</a><br>
+      </div>
+      <div class="w-25 bg-dark text-light ms-2 my-3 text-center">
+        <a href="" class="text-decoration-none text-light">Let Us Help You</a><br>
+        <a href="" class="text-decoration-none text-light">COVID-19 and Amazon</a><br>
+        <a href="" class="text-decoration-none text-light">Your Account</a><br>
+        <a href="" class="text-decoration-none text-light">Returns Centre</a><br>
+        <a href="" class="text-decoration-none text-light">100% Purchase Protection</a><br>
+        <a href="" class="text-decoration-none text-light">Amazon App Download</a><br>
+        <a href="" class="text-decoration-none text-light">help</a><br>
+      </div>
+    </div>
+    <div class="container-fluid text-light text-center pt-5 bg-dark">
+      <a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x  ms-5 text-danger"></i></a>
+      <a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x ms-5 text-primary"></i></a>
+      <a href="https://www.youtube.com"><i class="fa fa-youtube fa-2x ms-5 text-danger"></i> </a>
+      <a href="https://www.twitter.com"><i class="fa fa-twitter fa-2x ms-5 text-primary"></i>
+      </a>
+    </div>
+    <div class="text-center container-fluid pt-5 bg-dark">
+
+
+
+      <a href="1.html"> <img src="amz.footer2.png" alt="" height="70px" width="200px "></a>
+
+
+
+
+
+
+
+
+
+
+      <button class="btn btn-secondary dropdown-toggle ms-2" type="button" id="dropdownMenuButton1"
+        data-bs-toggle="dropdown" aria-expanded="true">
+        india
+      </button>
+      <ul class="dropdown-menu text-light" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">hindi</a></li>
+        <li><a class="dropdown-item" href="#">marathi</a></li>
+        <li><a class="dropdown-item" href="#">telugu</a></li>
+        <li><a class="dropdown-item" href="#">nepali</a></li>
+        <li><a class="dropdown-item" href="#">tamil</a></li>
+        <li><a class="dropdown-item" href="#">bhojpuri</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+</body>
+
+</html>
